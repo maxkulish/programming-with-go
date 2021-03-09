@@ -42,7 +42,6 @@ func BubbleSort(slc []int) {
 			}
 		}
 	}
-
 }
 
 // Swap takes slice and move one element with index i to 1 position ahead
