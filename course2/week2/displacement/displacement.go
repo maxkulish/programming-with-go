@@ -28,6 +28,6 @@ func main() {
 // which computes displacement as a function of time
 func GenDisplaceFn(a, v, s float64) func(t float64) float64 {
 	return func(t float64) float64 {
-		return 1/2*a*t*t + v*t + s
+		return ((a*t*t)/2 + (v * t) + s)
 	}
 }
